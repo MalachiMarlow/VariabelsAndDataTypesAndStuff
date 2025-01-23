@@ -1,6 +1,7 @@
 ﻿'Malachi Marlow
 
 Option Explicit On
+'Option Strict On
 
 Module VariabelsAndDataTypesAndStuff
 
@@ -8,6 +9,8 @@ Module VariabelsAndDataTypesAndStuff
 
         Dim jellyBeans As Integer
         Dim LaffyTaffy As Integer
+        Dim money As Decimal
+        Dim studentName As String
 
         Console.WriteLine(jellyBeans)
 
@@ -22,6 +25,15 @@ Module VariabelsAndDataTypesAndStuff
 
         LaffyTaffy = 62
         Console.WriteLine(LaffyTaffy)
+
+        money = 5649564101
+        jellyBeans = 159.598
+        studentName = "7"
+
+        jellyBeans = CInt(studentName)
+        Console.WriteLine("I've played these games before!")
+
+        Console.WriteLine()
 
     End Sub
 
